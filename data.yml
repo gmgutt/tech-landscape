@@ -6,28 +6,17 @@ landscape:
         name: Subcategory 1-1
         items:
           - item:
-            crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
             description: This is the description of item 1
-            homepage_url: https://cncf.io
-            logo: zlogo.png
-            name: Item 1
-            project: graduated
-            repo_url: https://github.com/cncf/landscape2
-            twitter: https://twitter.com/CloudNativeFdn
+            homepage_url: https://learn.microsoft.com/en-us/dotnet/csharp/
+            logo: csharp.png
+            name: C#
+            repo_url: https://github.com/dotnet/csharplang
           - item:
-            crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
             description: This is the description of item 2
-            homepage_url: https://cncf.io
+            homepage_url: https://dev.java/
             logo: zlogo.png
-            name: Item 2
-            project: sandbox
-            repo_url: https://github.com/cncf/landscape2
-            twitter: https://twitter.com/CloudNativeFdn
-          - item:
-            description: This is the description of item 3
-            homepage_url: https://cncf.io
-            logo: zlogo.png
-            name: Item 3
+            name: Java
+            repo_url: https://github.com/openjdk/jdk
       - subcategory:
         name: Subcategory 1-2
         items:
