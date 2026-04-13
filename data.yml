@@ -54,36 +54,56 @@ landscape:
         name: Subcategory 2-1
         items:
           - item:
-            crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
-            description: This is the description of item 6
-            homepage_url: https://cncf.io
-            logo: zlogo.png
-            name: Item 6
-            project: graduated
-            repo_url: https://github.com/cncf/landscape2
-            twitter: https://twitter.com/CloudNativeFdn
+            name: GitHub Actions
+            homepage_url: https://github.com/features/actions
+            logo: github-actions.svg
           - item:
-            crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
-            description: This is the description of item 7
-            homepage_url: https://cncf.io
-            logo: zlogo.png
-            name: Item 7
-            project: sandbox
-            repo_url: https://github.com/cncf/landscape2
-            twitter: https://twitter.com/CloudNativeFdn
+            name: Azure Pipelines
+            homepage_url: https://azure.microsoft.com/en-us/services/devops/pipelines/
+            logo: azure-pipelines.svg
           - item:
-            description: This is the description of item 8
-            homepage_url: https://cncf.io
-            logo: zlogo.png
-            name: Item 8
+            name: Concourse
+            homepage_url: https://concourse-ci.org/
+            repo_url: https://github.com/concourse/concourse
+            logo: concourse.svg
+          - item:
+            name: GoCD
+            homepage_url: https://www.gocd.org/
+            repo_url: https://github.com/gocd/gocd
+            logo: gocd.svg
       - subcategory:
         name: Subcategory 2-2
         items:
           - item:
-            crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
-            description: This is the description of item 9
-            homepage_url: https://cncf.io
-            logo: zlogo.png
-            name: Item 9
-            repo_url: https://github.com/cncf/landscape2
-            twitter: https://twitter.com/CloudNativeFdn
+            homepage_url: https://github.com/dependabot
+            logo: dependabot.png
+            name: Dependabot
+  - category:
+    name: Category 2
+    subcategories:
+      - subcategory:
+        name: Subcategory 2-1
+        items:
+          - item:
+            name: MariaDB
+            homepage_url: https://mariadb.com/
+            repo_url: https://github.com/MariaDB/server
+            logo: mariadb.svg
+          - item:
+            name: Microsoft SQL Server
+            homepage_url: https://www.microsoft.com/en-us/sql-server
+            logo: microsoft-sql-server.svg
+          - item:
+            name: MySQL
+            homepage_url: https://www.oracle.com/mysql/
+            repo_url: https://github.com/mysql/mysql-server
+            logo: my-sql.svg
+          - item:
+            name: Oracle Database
+            homepage_url: https://www.oracle.com/database/
+            logo: oracle.svg
+          - item:
+            name: PostgreSQL
+            homepage_url: https://www.postgresql.org/
+            repo_url: https://github.com/postgres/postgres
+            logo: postgre-sql.svg
