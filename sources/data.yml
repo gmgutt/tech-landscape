@@ -6,35 +6,47 @@ landscape:
         name: Subcategory 1-1
         items:
           - item:
-            description: This is the description of item 1
+            description: This is the description of C#
             homepage_url: https://learn.microsoft.com/en-us/dotnet/csharp/
             logo: csharp.png
             name: C#
             repo_url: https://github.com/dotnet/csharplang
           - item:
-            description: This is the description of item 2
+            description: This is the description of Java
             homepage_url: https://dev.java/
-            logo: zlogo.png
+            logo: openjdk2.svg
             name: Java
             repo_url: https://github.com/openjdk/jdk
+          - item:
+            description: This is the description of JavaScript
+            homepage_url: https://ecma-international.org/publications-and-standards/standards/ecma-262/
+            logo: javascript.svg
+            name: JavaScript
+          - item:
+            description: This is the description of typescript
+            homepage_url: https://www.typescriptlang.org/
+            logo: typescript.svg
+            name: TypeScript
+            repo_url: https://github.com/microsoft/TypeScript
       - subcategory:
         name: Subcategory 1-2
         items:
           - item:
-            crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
-            description: This is the description of item 4
-            homepage_url: https://cncf.io
-            logo: zlogo.png
-            name: Item 4
-            repo_url: https://github.com/cncf/landscape2
-            twitter: https://twitter.com/CloudNativeFdn
+            homepage_url: https://spring.io/projects/spring-boot
+            logo: spring-boot.svg
+            name: Spring Boot
           - item:
-            crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
-            description: This is the description of item 5
-            homepage_url: https://cncf.io
-            logo: zlogo.png
-            name: Item 5
-            repo_url: https://github.com/cncf/landscape2
+            homepage_url: https://learn.microsoft.com/en-us/aspnet/core/
+            logo: dotnet.svg
+            name: ASP.NET
+          - item:
+            homepage_url: https://angular.dev/
+            logo: angular.svg
+            name: Angular
+          - item:
+            homepage_url: https://react.dev/
+            logo: react.svg
+            name: React
   - category:
     name: Category 2
     subcategories:
