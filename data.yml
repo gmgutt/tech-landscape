@@ -14,7 +14,7 @@ landscape:
           - item:
             description: This is the description of Java
             homepage_url: https://dev.java/
-            logo: java.svg
+            logo: openjdk2.svg
             name: Java
             repo_url: https://github.com/openjdk/jdk
           - item:
