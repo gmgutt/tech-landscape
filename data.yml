@@ -79,7 +79,7 @@ landscape:
             logo: dependabot.png
             name: Dependabot
   - category:
-    name: Category 2
+    name: Category 3
     subcategories:
       - subcategory:
         name: Subcategory 2-1
@@ -107,3 +107,39 @@ landscape:
             homepage_url: https://www.postgresql.org/
             repo_url: https://github.com/postgres/postgres
             logo: postgre-sql.svg
+      - subcategory:
+        name: Subcategory 2-1
+        items:
+          - item:
+            name: Cassandra
+            homepage_url: https://cassandra.apache.org/
+            repo_url: https://github.com/apache/cassandra
+            logo: cassandra.svg
+          - item:
+            name: Couchbase
+            homepage_url: https://www.couchbase.com/
+            repo_url: https://github.com/couchbase/manifest
+            logo: couchbase.svg
+          - item:
+            name: Databricks
+            homepage_url: https://www.databricks.com/
+            logo: databricks.svg
+          - item:
+            name: Kafka
+            homepage_url: https://flink.apache.org/
+            repo_url: https://github.com/apache/kafka
+            logo: apache-kafka.svg
+          - item:
+            name: MongoDB
+            homepage_url: https://www.mongodb.com/
+            repo_url: https://github.com/mongodb/mongo
+            logo: mongo-db.svg
+          - item:
+            name: Redis
+            homepage_url: https://redis.io/
+            repo_url: https://github.com/redis/redis
+            logo: redis.svg
+          - item:
+            name: Snowflake
+            homepage_url: https://www.snowflake.com/
+            logo: snowflake.svg
