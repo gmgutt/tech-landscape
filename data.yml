@@ -3,7 +3,7 @@ landscape:
     name: Category 1
     subcategories:
       - subcategory:
-        name: Subcategory 1-2
+        name: Subcategory 1-0
         items:
           - item:
             homepage_url: https://spring.io/projects/spring-boot
@@ -103,6 +103,54 @@ landscape:
             name: Snyk
             homepage_url: https://snyk.io/
             logo: snyk.svg
+      - subcategory:
+        name: Subcategory 2-3
+        items:
+          - item:
+            name: Application Insights
+            homepage_url: https://azure.microsoft.com/en-us/products/monitor
+            logo: 00012-icon-service-Application-Insights.svg
+          - item:
+            name: Azure Log Analytics
+            homepage_url: https://azure.microsoft.com/en-us/products/monitor
+            logo: 00009-icon-service-Log-Analytics-Workspaces.svg
+          - item:
+            name: Dynatrace
+            homepage_url: https://www.dynatrace.com/
+            logo: dynatrace.svg
+          - item:
+            name: ElasticSearch
+            homepage_url: https://www.elastic.co/
+            repo_url: https://github.com/elastic/elasticsearch
+            logo: elastic.svg
+          - item:
+            name: Grafana
+            homepage_url: https://grafana.com/
+            repo_url: https://github.com/grafana/grafana
+            logo: grafana.svg
+          - item:
+            name: Jaeger
+            homepage_url: https://www.jaegertracing.io/
+            repo_url: https://github.com/jaegertracing/jaeger
+            logo: jaeger.svg
+          - item:
+            name: Logstash
+            homepage_url: https://www.elastic.co/logstash
+            repo_url: https://github.com/elastic/logstash
+            logo: logstash.svg
+          - item:
+            name: New Relic
+            homepage_url: https://newrelic.com/
+            logo: newrelic.svg
+          - item:
+            name: Prometheus
+            homepage_url: https://prometheus.io/
+            repo_url: https://github.com/prometheus/prometheus
+            logo: prometheus.svg
+          - item:
+            name: Splunk
+            homepage_url: https://www.splunk.com/
+            logo: splunk.svg
   - category:
     name: Category 3
     subcategories:
