@@ -21,13 +21,27 @@ landscape:
             homepage_url: https://react.dev/
             logo: react.svg
             name: React
+          - item:
+            name: Vue.js
+            homepage_url: https://vuejs.org/
+            repo_url: https://github.com/vuejs/core
+            logo: vuejs.svg
+          - item:
+            name: next.js
+            homepage_url: https://nextjs.org/
+            repo_url: https://github.com/vercel/next.js
+            logo: nextjs-logotype-light-background.svg
+          - item:
+            name: Blazor
+            homepage_url: https://learn.microsoft.com/en-us/aspnet/core/blazor/
+            logo: blazor.svg
       - subcategory:
         name: Subcategory 1-1
         items:
           - item:
             description: This is the description of C#
             homepage_url: https://learn.microsoft.com/en-us/dotnet/csharp/
-            logo: csharp.png
+            logo: csharp-128.png
             name: C#
             repo_url: https://github.com/dotnet/csharplang
           - item:
