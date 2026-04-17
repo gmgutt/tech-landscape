@@ -3,6 +3,25 @@ landscape:
     name: Category 1
     subcategories:
       - subcategory:
+        name: Subcategory 1-2
+        items:
+          - item:
+            homepage_url: https://spring.io/projects/spring-boot
+            logo: spring-boot.svg
+            name: Spring Boot
+          - item:
+            homepage_url: https://learn.microsoft.com/en-us/aspnet/core/
+            logo: dotnet.svg
+            name: ASP.NET
+          - item:
+            homepage_url: https://angular.dev/
+            logo: angular.svg
+            name: Angular
+          - item:
+            homepage_url: https://react.dev/
+            logo: react.svg
+            name: React
+      - subcategory:
         name: Subcategory 1-1
         items:
           - item:
@@ -28,25 +47,12 @@ landscape:
             logo: typescript.svg
             name: TypeScript
             repo_url: https://github.com/microsoft/TypeScript
-      - subcategory:
-        name: Subcategory 1-2
-        items:
           - item:
-            homepage_url: https://spring.io/projects/spring-boot
-            logo: spring-boot.svg
-            name: Spring Boot
-          - item:
-            homepage_url: https://learn.microsoft.com/en-us/aspnet/core/
-            logo: dotnet.svg
-            name: ASP.NET
-          - item:
-            homepage_url: https://angular.dev/
-            logo: angular.svg
-            name: Angular
-          - item:
-            homepage_url: https://react.dev/
-            logo: react.svg
-            name: React
+            description: This is the description of python
+            homepage_url: https://python.org/
+            logo: python-logo-only.svg
+            name: Python
+            repo_url: https://github.com/python/cpython
   - category:
     name: Category 2
     subcategories:
@@ -71,6 +77,21 @@ landscape:
             homepage_url: https://www.gocd.org/
             repo_url: https://github.com/gocd/gocd
             logo: gocd.svg
+          - item:
+            name: Jenkins
+            homepage_url: https://jenkins.io/
+            repo_url: https://github.com/jenkinsci/jenkins
+            logo: jenkins.svg
+          - item:
+            name: Puppet
+            homepage_url: https://puppet.com/
+            repo_url: https://github.com/puppetlabs/puppet
+            logo: puppet.svg
+          - item:
+            name: Terraform
+            homepage_url: https://www.terraform.io/
+            repo_url: https://github.com/hashicorp/terraform
+            logo: terraform.svg
       - subcategory:
         name: Subcategory 2-2
         items:
@@ -78,9 +99,36 @@ landscape:
             homepage_url: https://github.com/dependabot
             logo: dependabot.png
             name: Dependabot
+          - item:
+            name: Snyk
+            homepage_url: https://snyk.io/
+            logo: snyk.svg
   - category:
     name: Category 3
     subcategories:
+      - subcategory:
+        name: Subcategory 2-0
+        items:
+          - item:
+            name: Apache Airflow
+            homepage_url: https://airflow.apache.org/
+            repo_url: https://github.com/apache/airflow
+            logo: apache-airflow.svg
+          - item:
+            name: dbt
+            homepage_url: https://www.getdbt.com/product/dbt
+            repo_url: https://github.com/dbt-labs/dbt-core
+            logo: dbt-logo-full.svg
+          - item:
+            name: Flyway
+            homepage_url: https://flywaydb.org/
+            repo_url: https://github.com/flyway/flyway
+            logo: flyway.svg
+          - item:
+            name: Liquibase
+            homepage_url: https://www.liquibase.com/
+            repo_url: https://github.com/liquibase/liquibase
+            logo: liquibase.svg
       - subcategory:
         name: Subcategory 2-1
         items:
@@ -108,7 +156,7 @@ landscape:
             repo_url: https://github.com/postgres/postgres
             logo: postgre-sql.svg
       - subcategory:
-        name: Subcategory 2-1
+        name: Subcategory 2-2
         items:
           - item:
             name: Cassandra
@@ -126,9 +174,9 @@ landscape:
             logo: databricks.svg
           - item:
             name: Kafka
-            homepage_url: https://flink.apache.org/
+            homepage_url: https://kafka.apache.org/
             repo_url: https://github.com/apache/kafka
-            logo: apache-kafka.svg
+            logo: kafka.svg
           - item:
             name: MongoDB
             homepage_url: https://www.mongodb.com/
